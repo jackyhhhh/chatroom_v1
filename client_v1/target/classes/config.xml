@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project>
+    <!-- 服务端版 -->
+<!--    <server host="182.254.170.110" port="8444"/>-->
+    <!-- 本地版 -->
+    <server host="localhost" port="8444" />
+</project>
+
