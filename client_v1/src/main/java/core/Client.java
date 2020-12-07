@@ -63,9 +63,11 @@ public class Client extends JPanel {
             if(msg.length() > 30){
                 notice = Log.now() + " 对不起, 消息不能超过30个字符 !!!";
                 noticeCount = 0;
+                ta.setAreaText(msg.substring(0,30));
+            }else{
+                ConnManager.sendMsgToServer(sc, msg);
+                ta.setAreaText("");
             }
-            ConnManager.sendMsgToServer(sc, msg);
-            ta.setAreaText("");
         }else {
             notice = Log.now() + " 对不起, 不能发送空白消息 !!!";
             noticeCount = 0;

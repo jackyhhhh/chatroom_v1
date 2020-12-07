@@ -3,23 +3,23 @@
     <server host="localhost" port="8444"/>
     <database>
         <!-- 服务端版DB -->
-<!--        <client>-->
-<!--            <driver>com.mysql.cj.jdbc.Driver</driver>-->
-<!--            <host>182.254.170.110</host>-->
-<!--            <port>3306</port>-->
-<!--            <name>chatroom</name>-->
-<!--            <user>jacky</user>-->
-<!--            <password>jacky</password>-->
-<!--        </client>-->
-        <!-- 本地版DB -->
         <client>
             <driver>com.mysql.cj.jdbc.Driver</driver>
-            <host>localhost</host>
+            <host>182.254.170.110</host>
             <port>3306</port>
             <name>chatroom</name>
-            <user>root</user>
-            <password>root</password>
+            <user>jacky</user>
+            <password>jacky</password>
         </client>
+        <!-- 本地版DB -->
+<!--        <client>-->
+<!--            <driver>com.mysql.cj.jdbc.Driver</driver>-->
+<!--            <host>localhost</host>-->
+<!--            <port>3306</port>-->
+<!--            <name>chatroom</name>-->
+<!--            <user>root</user>-->
+<!--            <password>root</password>-->
+<!--        </client>-->
         <server>
             <driver>com.mysql.cj.jdbc.Driver</driver>
             <host>localhost</host>
